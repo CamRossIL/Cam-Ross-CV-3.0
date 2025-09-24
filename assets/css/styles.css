@@ -72,3 +72,27 @@ header a{
     background-color: #ffffff;
     object-fit: cover;
 }
+
+.headerinfo{
+    width: 70%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.headercontact{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.headercontact_link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    min-width: 10rem; /*pour que les elements occupent le meme espace en largeur et donc que les icones soient alignées*/
+}
