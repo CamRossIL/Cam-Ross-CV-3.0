@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Raleway Bold */
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+*{padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    width: 1160px;
+    max-width: 100%;
+    margin: 0 auto; /*centrer horizontalement*/
+    font-family: raleway, sans-serif;
+}
+
+h1,h2,h3{
+    font-family: lato, sans-serif;
+}
+
+header{
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    display: flex;
+    flex-direction: row;
+    background-color: #17abb3;
+    color: #ffffff;
+}
+
+header a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.img{
+    width: 30%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img a:hover{
+    cursor: zoom-in;
+}
+.img img{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    width: 10rem;/*pour photo arrondie width et height les memes*/
+    height: 10rem;/*pour photo arrondie width et height les memes*/
+    border: 2px solid #ffffff;
+    border-radius: 50%; /*photo arrondie*/
+    background-color: #ffffff;
+    object-fit: cover;
+}
+
+.headerinfo{
+    width: 70%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.headercontact{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.headercontact_link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    min-width: 10rem; /*pour que les elements occupent le meme espace en largeur et donc que les icones soient alignées*/
+}
