@@ -35,3 +35,40 @@
 h1,h2,h3{
     font-family: lato, sans-serif;
 }
+
+header{
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    display: flex;
+    flex-direction: row;
+    background-color: #17abb3;
+    color: #ffffff;
+}
+
+header a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.img{
+    width: 30%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img a:hover{
+    cursor: zoom-in;
+}
+.img img{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    width: 10rem;/*pour photo arrondie width et height les memes*/
+    height: 10rem;/*pour photo arrondie width et height les memes*/
+    border: 2px solid #ffffff;
+    border-radius: 50%; /*photo arrondie*/
+    background-color: #ffffff;
+    object-fit: cover;
+}
