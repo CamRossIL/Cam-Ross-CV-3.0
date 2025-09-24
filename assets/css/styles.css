@@ -24,3 +24,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.content{
+    width: 1160px;
+    max-width: 100%;
+    margin: 0 auto; /*centrer horizontalement*/
+    font-family: raleway, sans-serif;
+}
+
+h1,h2,h3{
+    font-family: lato, sans-serif;
+}
