@@ -166,3 +166,13 @@ ul li::marker{
 .bold{
     font-weight: 700;
 }
+.footer{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: #17abb3;
+    color: #ffffff;
+}
